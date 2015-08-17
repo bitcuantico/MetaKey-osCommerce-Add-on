@@ -1,0 +1,18 @@
+MetaKey v1.0
+
+Designed for:
+osCommerce v2.2, v2.3, Open Source E-Commerce Solutions
+http://www.oscommerce.com
+
+---------------------------------------------------------------------------------
+
+INSTALACIÓN
+
+1.- Configurar el archivo includes/meta_tags.php
+2.- Modificar y agregar el siguiente código en “includes/header.php” o “includes/template_top.php”.
+
+<?php
+if (file_exists(DIR_WS_INCLUDES . 'meta_tags.php')){
+  require(DIR_WS_INCLUDES . 'meta_tags.php');
+}
+?>
